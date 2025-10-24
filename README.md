@@ -7,17 +7,17 @@
 
 A Photography Website project using HTML and CSS3 and TAILWIND! .
 
-<img width="1906" height="960" alt="Image" src="https://github.com/user-attachments/assets/1690e063-ff3a-4acc-9822-723db814274d" />
+<img width="1906" height="960" alt="Image" src="https://github.com/user-attachments/assets/1de81c49-33ec-475f-bff8-bab68ab36b9b" />
 <br/>
-<img width="1906" height="960" alt="Image" src="https://github.com/user-attachments/assets/4cbf7344-534a-4910-be8f-ab6f4b1c20a4" />
+<img width="1906" height="960" alt="Image" src="https://github.com/user-attachments/assets/47589733-dd92-4545-b6f3-700e8a9415ed" />
 <br/>
-<img width="1907" height="960" alt="Image" src="https://github.com/user-attachments/assets/39409a1e-023d-4346-9886-3d088c96667c" />
+<img width="1907" height="960" alt="Image" src="https://github.com/user-attachments/assets/34b14aac-183b-4930-b989-d3637b824066" />
 <br/>
-<img width="1907" height="970" alt="Image" src="https://github.com/user-attachments/assets/28a29b57-0cf1-4334-92f3-af1377452733" />
+<img width="1907" height="970" alt="Image" src="https://github.com/user-attachments/assets/49159d2f-64ed-4429-858e-5367576bc7e9" />
 <br/>
-<img width="1906" height="971" alt="Image" src="https://github.com/user-attachments/assets/bc235b0e-3f7f-4bd2-91df-12a8ecd88d6e" />
+<img width="1906" height="971" alt="Image" src="https://github.com/user-attachments/assets/d4b2467b-2359-411a-9a6b-55fbc1b733e9" />
 <br/>
-<img width="1907" height="971" alt="Image" src="https://github.com/user-attachments/assets/54027c83-279d-4bc7-9787-8fbfb780f283" />
+<img width="1907" height="971" alt="Image" src="https://github.com/user-attachments/assets/6c53b855-3391-4fc4-9fc0-62f1cbfca480" />
 <br/>
 <br/>
 <p align="center">
