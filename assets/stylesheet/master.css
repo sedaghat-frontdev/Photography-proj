@@ -1,0 +1,155 @@
+@import "tailwindcss";
+
+  @scroll-timeline fadeInTimeline {
+    source: view();
+    /* viewport کاربر */
+    orientation: block;
+  }
+  @scroll-timeline scrollTimeline {
+  source: auto;
+  orientation: block; /* یعنی اسکرول عمودی */
+}
+
+@layer base {
+  body {
+    font-family: intersemibold;
+  }
+}
+
+@layer components {}
+
+@layer utilities {
+  .row {
+    @apply w-full flex flex-wrap;
+  }
+
+  .animecomein {
+    animation: animecomein 1s ease forwards;
+    animation-timeline: fadeInTimeline;
+  }
+
+
+
+  @keyframes animecomein {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+  @keyframes animefigures1 {
+    from{
+      transform: translateY(100%);
+    }
+    to{
+      transform: translateY(-100%);
+    }
+  }
+  .animefigures1{
+    animation: animefigures1 .2s ease;
+    animation-timeline: scroll();
+    animation-range: entry 0% cover 100%;
+  }
+
+  @keyframes scalein {
+    from{
+      transform: scale(1.8);
+    }
+    to{
+      transform: scale(.3);
+    }
+  }
+  .scalein{
+    animation: scalein .2s ease;
+    animation-timeline: scroll();
+    animation-range: entry 0% cover 100%;
+  }
+
+ 
+
+@keyframes animefigures2 {
+  from{
+    transform: translateX(-80%);
+  }
+  to{
+    transform: translateX(80%);
+  }
+}
+.animefigures2{
+  animation: animefigures2 4s ease;
+    animation-timeline: scroll();
+}
+
+@keyframes animefigures3 {
+  from{
+    transform: translateX(96px);
+  }
+  to{
+    transform: translateX(-250px);
+  }
+}
+.animefigures3{
+  animation: animefigures3 .2s ease;
+    animation-timeline: scroll();
+    animation-range: entry 0% cover 100%;
+}
+@keyframes animefigures4 {
+  from{
+    transform: translateY(-100%)
+  }
+  to{
+    transform: translateY(95%)
+  }
+}
+.animefigures4{
+  animation: animefigures4 .2s ease;
+    animation-timeline: scroll();
+    animation-range: entry 0% cover 100%;
+}
+
+@keyframes toright {
+  from{
+    transform: translateX(0%);
+  }
+  to{
+    transform: translateX(140%);
+  }
+}
+.toright{
+  animation: toright 5s linear infinite alternate;
+}
+@keyframes toleft {
+  from{
+    transform: translateX(0%);
+  }
+  to{
+    transform: translateX(-140%);
+  }
+}
+.toleft{
+  animation: toleft 5s linear infinite alternate;
+}
+
+}
+@layer theme {
+  @font-face {
+    font-family: intertight;
+    src: url(TextFonts/InterTight-VariableFont_wght.ttf);
+  }
+
+  @font-face {
+    font-family: intertightlight;
+    src: url(TextFonts/InterTight-Light.ttf);
+  }
+
+  @font-face {
+    font-family: intersemibold;
+    src: url(TextFonts/InterTight-SemiBold.ttf);
+  }
+}
